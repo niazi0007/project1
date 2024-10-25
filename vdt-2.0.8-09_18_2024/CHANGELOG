@@ -1,0 +1,53 @@
+## VDT Framework [2.0.4] - 2024-03-08
+
+### Added
+
+None
+
+### Fixed
+
+- Details indentation was misaligned.  Fixed.
+
+### Changed
+
+None
+
+### Removed
+
+None
+
+## VDT Framework [2.0.3] - 2024-02-16
+
+### Added
+
+None
+
+### Fixed
+
+- Details indentation was misaligned.  Fixed.
+
+### Changed
+
+None
+
+### Removed
+
+None
+
+## VDT Framework [2.0.1] - 2023-12-21
+
+### Added
+
+- timestamp and version to JSON output
+
+### Fixed
+
+None
+
+### Changed
+
+None
+
+### Removed
+
+None

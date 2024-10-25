@@ -1,0 +1,111 @@
+## VDT for vCenter [2.0.8] - 2024-09-18
+
+### Added
+
+### Fixed
+
+- Updated workaround for malformed SRM service registration in SRM 9.0 for identification purposes
+
+### Changed
+
+### Removed
+
+## VDT for vCenter [2.0.6] - 2024-03-08
+
+### Added
+
+### Fixed
+
+- Added workaround for malformed SRM service registration in SRM 9.0
+
+### Changed
+
+### Removed
+
+## VDT for vCenter [2.0.4] - 2024-03-08
+
+### Added
+
+- New check for legacy ssloptions cluster setting (KB TBD)
+
+### Fixed
+
+- vmdir check was not working correctly for machine account credentials.
+
+### Changed
+
+- Due to product limitations, machine account credential auth is only available in vCenter 8.0+
+
+### Removed
+
+- Solution user permission check.  The permissions change in every version and under other circumstances.  Not sustainable.
+
+## VDT for vCenter [2.0.3] - 2024-02-16
+
+### Added
+
+- New check for service start priority (KB 89163)
+- Certificate checks now include solution user certificate parity check between vecs and vmdir.
+
+### Fixed
+
+- SDDC detection check incorrectly threw error.  this has been fixed.
+- Fixed an issue where the solution user check did not properly check the autodeploy user.
+
+### Changed
+
+Reverse DNS Resolution Check:
+
+- Updated to FAIL from WARN.
+- Updated to include the values when flagging a FAIL.
+- Now provides documentation links.
+
+Automatic Authentication!
+
+- Now uses internal machine account credentials to perform authenticated checks.  This should be more convenient and secure.
+- No username/password prompt is necessary anymore.
+
+### Removed
+
+- Solution user permission check.  The permissions change in every version and under other circumstances.  Not sustainable.
+
+## VDT for vCenter [2.0.2] - 2024-02-05
+
+### Added
+
+- Check for solution user permissions and certificate parity
+- Info check now displays whether the vCenter is part of VCF deployment
+- Check for identity source connection string
+- Check for vmafdd log rotation
+
+### Fixed
+
+- Updated documentation for vpxd-extension check.
+
+### Changed
+
+- Updated certificate check with new documentation.
+
+### Removed
+
+None
+
+## VDT for vCenter [2.0.1] - 2023-12-21
+
+### Added
+
+- If proxy is enabled, will check for FQDN in no_proxy
+
+### Fixed
+
+- missing quote in vmdir standalone check's command
+- Fixed bad logic in IWA/AD domain check that would cause a backtrace
+- cert extension fail now shows red color instead of blue/info
+
+### Changed
+
+- added additional logging to the cert check
+
+### Removed
+
+None

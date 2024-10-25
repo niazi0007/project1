@@ -1,0 +1,121 @@
+{
+  "vpxd": [
+    "Users",
+    "SolutionUsers",
+    "SystemConfiguration.Administrators",
+    "ActAsUsers",
+    "ComponentManager.Administrators",
+    "LicenseService.Administrators"
+  ],
+  "vpxd-extension": [
+    "Users",
+    "SolutionUsers",
+    "SystemConfiguration.Administrators",
+    "ActAsUsers",
+    "ComponentManager.Administrators",
+    "AnalyticsService.Administrators",
+    "LicenseService.Administrators",
+    "ServiceProviderUsers",
+    "vStatsGroup"
+  ],
+  "hvc": [
+    "Users",
+    "SolutionUsers",
+    "SystemConfiguration.Administrators",
+    "ComponentManager.Administrators",
+    "LicenseService.Administrators",
+    "SyncUsers"
+  ],
+  "vpxd-svc-acct": [
+    "Users",
+    "SolutionUsers",
+    "SystemConfiguration.Administrators",
+    "ActAsUsers",
+    "ComponentManager.Administrators",
+    "LicenseService.Administrators"
+  ],
+  "machine": [
+    "Administrators",
+    "SolutionUsers",
+    "SystemConfiguration.Administrators",
+    "ComponentManager.Administrators",
+    "SyncUsers",
+    "AutoUpdate"
+  ],
+  "vsphere-webclient": [
+    "Administrators",
+    "SolutionUsers",
+    "ActAsUsers",
+    "LicenseService.Administrators",
+    "vSphereClientSolutionUsers"
+  ],
+  "sps": [
+    "Administrators",
+    "SolutionUsers",
+    "ActAsUsers",
+    "ServiceProviderUsers"
+  ],
+  "vsphere-ui": [
+    "Administrators",
+    "SolutionUsers",
+    "ActAsUsers",
+    "LicenseService.Administrators",
+    "ServiceProviderUsers",
+    "vSphereClientSolutionUsers"
+  ],
+  "cms": [
+    "CAAdmins",
+    "SolutionUsers",
+    "ServiceProviderUsers",
+    "ActAsUsers"
+  ],
+  "autodeploy": [
+    "CAAdmins",
+    "SolutionUsers",
+    "ActAsUsers"
+  ],
+  "wcp": [
+    "SolutionUsers",
+    "ActAsUsers",
+    "NsxAdministrators"
+  ],
+  "workload_storage_management": [
+    "SolutionUsers",
+    "ActAsUsers",
+    "ServiceProviderUsers",
+    "WorkloadStorage"
+  ],
+  "serviceaccountmgmt": [
+    "SolutionUsers",
+    "ActAsUsers",
+    "ReadOnlyUsers"
+  ],
+  "vmware-scaservice": [
+    "SolutionUsers",
+    "ActAsUsers",
+    "ReadOnlyUsers"
+  ],
+  "vmware-vsm": [
+    "SolutionUsers",
+    "ActAsUsers",
+    "ServiceProviderUsers",
+    "ReadOnlyUsers"
+  ],
+  "topologysvc": [
+    "SolutionUsers",
+    "ActAsUsers"
+  ],
+  "certificateauthority": [
+    "SolutionUsers",
+    "ActAsUsers"
+  ],
+  "vmware-applmgmtservice": [
+    "SolutionUsers",
+    "SystemConfiguration.Administrators",
+    "ActAsUsers",
+    "ReadOnlyUsers",
+    "SystemConfiguration.BashShellAdministrators",
+    "ServiceProviderUsers",
+    "applmgmtSvcUsers"
+  ]
+}

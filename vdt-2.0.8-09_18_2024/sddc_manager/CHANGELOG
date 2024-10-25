@@ -1,0 +1,111 @@
+# Changelog
+
+## [2.0.4]
+
+## Legacy version 0.2.6:
+
+## Changed
+
+- Updated lcmChecks.py - Updated logic for manifest polling check
+- Updated sddc_defaults.py - Update logic for checking presence of VxRail
+
+## Added
+
+- lcmChecks.py - added check LCM file permissions and ownership
+- lcmChecks.py - added check for depot connectivity
+- lcmChecks.py - added check for LCM proxy configuration
+- sddc_vdt.ini - added calls for all of the above mentioned new checks
+
+
+## [2.0.3]
+
+## Legacy version 0.2.5:
+
+## Changed
+
+- Updated nsxChecks.py - Fixed incorrect logic for edge transport node mismatch
+- sddc_vdt.ini - Changed the order of NSX Federation check to be first
+
+## Added
+
+- Added aria-suite.py - Checks for the status of the Aria Products
+- inventoryUtils.py - added the functions: vrslcmInfo, vropsInfo, vrliInfo, vraInfo, wsaInfo
+- nsxChecks.py - added check for shared NSX Clusters
+- lcmChecks.py - added check for LCM Manifest polling
+- sddc_vdt.ini - added checks for all of the above mentioned new checks
+
+=============================================================
+
+## [2.0.2]
+
+## Legacy version 0.2.4:
+
+### Changed
+
+- Updated vdt.ini - Verbiage changed from 'VCF' to 'SDDC Manager'
+- Updated sddc_vdt.py - Verbiage changed from 'VCF' to 'SDDC Manager'
+- Updated sddc_vdt.ini - Added new categories, sub-categories and checks for check_status.py and syslog.py
+- Updated checkManifest.py - Added logic to account for different psql commands based on sddc manager versions
+
+### Added
+
+- Added check_status.py to check the status of inventory objects
+- Added syslog.py to check status of syslog logging
+- Added run_pqsl_command_full function to commandUtils.py
+
+### Removed
+
+- Removed placeholder and TODO item for VCF+ due to product EOL
+
+
+=============================================================
+
+## [2.0.1] - 2024-01
+
+## Legacy version 0.2.3:
+
+### Changed
+
+- Fixed 'vcf' naming to 'sddc' in sddc_vdt.py
+- Renamed 'sddc_cfg/vdt_vcf.ini' to 'sddc_cfg/sddc_vdt.ini'
+- Updated sddc_defaults.py to match vc_defaults.py.
+
+### Added
+
+- Added docstrings to all functions under sddc_manager folder
+- Added defaults.ini in sddc_cfg/
+
+### Removed
+
+- Removed deprecated functions, commented out functions and other elements that were unused
+
+=============================================================
+
+## [2.0.1] - 2023-12-21
+
+## Legacy version 0.2.3:
+
+### Changed
+
+- All 'vcf' references updated to some variant of 'sddc' or 'sddc_manager'
+
+### Added
+
+- CHANGELOG file added to sddc_manager directory
+
+=============================================================
+
+## [2.0.1] - 2023-12-20
+
+## Legacy version 0.2.2:
+
+### Fixed
+
+- Fixed Credential operation detecting false positives
+- Fixed Edge Cluster Transport Node False Positive detection
+
+### Removed
+
+- Removed todo.md file 
+
+
